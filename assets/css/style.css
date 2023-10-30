@@ -18,10 +18,10 @@ body {
 .hero {
   height: 650px;
   padding-top: 40px;
-  object-fit: cover;
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
+  /* object-fit: cover; */
+  /* background-size: cover; */
+  /* background-position: bottom; */
+  /* background-repeat: no-repeat; */
   background-color: #072541;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("#232D3F"); */
