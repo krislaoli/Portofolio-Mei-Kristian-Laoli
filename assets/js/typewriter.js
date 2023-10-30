@@ -12,4 +12,7 @@ typewriter
   .typeString(`Backend Web Developer`)
   .pauseFor(2000)
   .deleteAll()
+  .typeString(`Contact Me Below`)
+  .pauseFor(2000)
+  .deleteAll()
   .start();
