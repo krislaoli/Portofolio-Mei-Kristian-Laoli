@@ -1,0 +1,16 @@
+  /* Ini adalah contoh CSS yang digunakan untuk mengatur ukuran gambar */
+  .image-container {
+    font-size: 24px; /* Ganti ukuran sesuai kebutuhan Anda */
+  }
+  
+  .image-container img {
+    width: 1em; /* 1em setara dengan ukuran font-size dari elemen parent (.image-container) */
+    height: 1em; /* 1em setara dengan ukuran font-size dari elemen parent (.image-container) */
+  }
+
+  .image-container {
+    border: 2px solid #000; /* Atur lebar dan warna border sesuai kebutuhan */
+    padding: 5px; /* Atur ukuran padding sesuai kebutuhan */
+    display: inline-block; /* Untuk menjaga kotak tetap sejajar dengan teks di sekitarnya */
+    width: 50px;
+  }
