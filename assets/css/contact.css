@@ -18,6 +18,10 @@
     letter-spacing: 2px;
     font-size: 29px;
   }
+
+  option {
+    color: black;
+  }
    
   .input-container {
     margin-bottom: 16px;
