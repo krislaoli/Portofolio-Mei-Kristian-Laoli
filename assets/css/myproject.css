@@ -1,11 +1,16 @@
-body {
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+  body {
   background-color: #ECE3CE;
 }
 
   .card-container {
     position: relative;
   }
-  
+
+  .project-name {
+    font-family: 'Montserrat', sans-serif;
+  }
   .github-button {
     margin-right: 10px; 
   }
@@ -19,6 +24,7 @@ body {
     text-align: center !important;
     margin-top:10px !important;
     font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .image-container {
@@ -67,4 +73,5 @@ body {
   .all-view-project {
     text-decoration: none;
     color: white !important;
+    font-family: 'Montserrat', sans-serif;
   }

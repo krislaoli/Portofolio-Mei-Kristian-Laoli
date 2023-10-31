@@ -49,7 +49,7 @@ function darkTheme() {
     .setAttribute("src", "./assets/img/card-1.gif");
   document
     .getElementById("aboutImage2")
-    .setAttribute("src", "./assets/img/card-1.gif");
+    .setAttribute("src", "./assets/img/card-2.gif");
 
   // Mengubah card menjadi dark
   document.querySelectorAll(".card").forEach((element) => {
@@ -73,10 +73,10 @@ function lightTheme() {
   // Mengubah about image menjadi light
   document
     .getElementById("aboutImage1")
-    .setAttribute("src", "./assets/img/about.webp");
+    .setAttribute("src", "./assets/img/card-1.gif");
   document
     .getElementById("aboutImage2")
-    .setAttribute("src", "./assets/img/about2.webp");
+    .setAttribute("src", "./assets/img/card-2.gif");
 
   // Mengubah card menjadi light
   document.querySelectorAll(".card").forEach((element) => {
