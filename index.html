@@ -28,6 +28,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- aos -->
+
     <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/theme.css" />
@@ -102,7 +107,7 @@
           class="container-lg h-100 d-flex justify-content-center align-items-center"
         >
           <div class="row align-items-center px-sm-3">
-            <div class="col-12 col-md-4 order-md-1 text-center mb-4 mb-md-0">
+            <div class="col-12 col-md-4 order-md-1 text-center mb-4 mb-md-0" data-aos="fade-up" data-aos-duration="1000">
               <img
                 class="profile-img rounded-circle img-thumbnail"
                 src="./assets/img/hero_profile.JPG"
@@ -111,7 +116,9 @@
             </div>
             <div class="col">
               <h1
-                class="display-4 text-center text-lg-start text-white fw-bold"
+                class="display-4 text-center text-lg-start text-white fw-bold" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" data-aos-duration="1000"
               >
                 Mei Kristian Laoli
               </h1>
@@ -1061,5 +1068,13 @@
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script src="./assets/js/slider.js"></script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- aos -->
+
   </body>
 </html>
